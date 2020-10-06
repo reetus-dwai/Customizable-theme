@@ -8,17 +8,17 @@
   <script src='script.js'></script>
 </head>
 <body class='theme'>
-  <button class='theme' id='settings'><img src='settings-solid.png' id='imgSettings'></button>
-  <div>
-    <input type="color" id="head" name="head"
-           value="#000000">
-    <label for="head">Background</label>
-</div>
-
-<div>
-    <input type="color" id="body" name="body"
-            value="#ffffff">
-    <label for="body">Text</label>
-</div>
+  <button class='theme' id='settingsBTN' onclick='switch()'><img src='settings-solid.png' id='imgSettings'></button>
+  <div id='settings'>
+    <div>
+      <input type="color" id="head" name="head" value="#000000">
+      <label for="head">Background</label>
+    </div>
+    <div>
+      <input type="color" id="body" name="body" value="#ffffff">
+      <label for="body">Text</label>
+    </div>
+    <button id='switch' onclick='theme()'>Change Colors</button>
+  </diV>
 </body>
 </html>
