@@ -1,5 +1,8 @@
 #imgSettings {
+/*not editable*/
+  border: none;
   position: absolute;
+/*dynamicaly editable*/
   left: 950vw;
   top: 0vw;
   width: 5vw;
@@ -9,12 +12,14 @@
 
 #settings {
   display: none;
+/*inheritly edited*/
   position: absolute;
   left: 950vw;
   top: 0vw;
 }
 
 .theme {
+/*dynamicaly editable*/
   background: #ffffff;
   color: #000000;
 }
