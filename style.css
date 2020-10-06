@@ -1,5 +1,8 @@
 #settings {
-  
+  width: 10vw;
+  height: inherit;
+  opacity: 100%;
+  hue-rotate: 0px;
 }
 
 .theme {
