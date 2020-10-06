@@ -1,6 +1,14 @@
 #imgSettings {
   width: 5vw;
   height: 5vw;
+  opacity: 50%;
+}
+
+#settings {
+  display: none;
+  position: absolute;
+  left: 100vw;
+  top: 0vw;
 }
 
 .theme {
