@@ -3,7 +3,7 @@
   border: none;
   position: absolute;
 /*dynamicaly editable*/
-  left: 950vw;
+  left: 95vw;
   top: 0vw;
   width: 5vw;
   height: 5vw;
@@ -14,7 +14,7 @@
   display: none;
 /*inheritly edited*/
   position: absolute;
-  left: 950vw;
+  left: 95vw;
   top: 0vw;
 }
 
