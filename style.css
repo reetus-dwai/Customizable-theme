@@ -12,10 +12,13 @@
 
 #settings {
   display: none;
+  border: 1px solid black;
 /*inheritly edited*/
   position: absolute;
-  left: 95vw;
-  top: 0vw;
+  left: 90vw;
+  top: 5vw;
+  width: 10vw;
+  height: 5vw;
 }
 
 .theme {
