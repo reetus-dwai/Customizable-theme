@@ -1,4 +1,7 @@
 #imgSettings {
+  position: absolute;
+  left: 950vw;
+  top: 0vw;
   width: 5vw;
   height: 5vw;
   opacity: 50%;
@@ -7,7 +10,7 @@
 #settings {
   display: none;
   position: absolute;
-  left: 100vw;
+  left: 950vw;
   top: 0vw;
 }
 
