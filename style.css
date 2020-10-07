@@ -20,11 +20,10 @@
   display: none;
   border: 1px solid black;
   border-radius: 3px;
-/*inheritly edited*/
   position: absolute;
+/*inheritly edited*/
   left: 80vw;
   top: 3vw;
-  width: 20vw;
 }
 
 .theme {
