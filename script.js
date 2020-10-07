@@ -20,11 +20,18 @@ function flip(){
   }
 }
             
-function theme(){
+function apply(){
   for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
     document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
     document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
   }
+  document.getElementById('imgSettings').style.opacity = document.getElementById('opacity').value;
+  document.getElementById('imgSettings').style.right = document.getElementById('hp').value + 'vw';
+  document.getElementById('imgSettings').style.top = document.getElementById('vp').value + 'vw';
+  document.getElementById('imgSettings').style.width = document.getElementById('size').value + 'vw';
+  document.getElementById('imgSettings').style.height = document.getElementById('size').value + 'vw';
+  document.getElementById('settings').style.top = (document.getElementById('size').value + 1) + 'vw';
+  document.getElementById('settings').style.right = document.getElementById('hp').value + 'vw';
 }
 
 function save(){
