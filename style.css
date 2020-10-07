@@ -16,6 +16,7 @@
 }
 
 #settings {
+  padding: 5px;
   display: none;
   border: 1px solid black;
 /*inheritly edited*/
