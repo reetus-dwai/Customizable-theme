@@ -4,10 +4,10 @@
   position: absolute;
 /*dynamicaly editable*/
   filter: hue-rotate(30deg);
-  left: 94vw;
-  top: 1vw;
-  width: 5vw;
-  height: 5vw;
+  left: 97.5vw;
+  top: 0.5vw;
+  width: 2vw;
+  height: 2vw;
   opacity: 10%;
 }
 
@@ -21,7 +21,7 @@
 /*inheritly edited*/
   position: absolute;
   left: 80vw;
-  top: 5vw;
+  top: 3vw;
   width: 20vw;
   height: 10vw;
 }
