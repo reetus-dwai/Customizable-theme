@@ -3,7 +3,9 @@ function ready() {
       for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
         document.getElementsByClassName('theme')[i].style.background = localStorage.getItem('background');
         document.getElementsByClassName('theme')[i].style.color = localStorage.getItem('color');
-    }
+      }
+      document.getElementById('background').value = localStorage.getItem('background');
+      document.getElementById('color').value = localStorage.getItem('color');
     } else {
       alert('You have 0 saved styles.');    
     }
