@@ -4,10 +4,14 @@
   position: absolute;
 /*dynamicaly editable*/
   filter: hue-rotate(30deg);
-  left: 95vw;
-  top: 0vw;
+  left: 94vw;
+  top: 1vw;
   width: 5vw;
   height: 5vw;
+  opacity: 10%;
+}
+
+#imgSettings:hover {
   opacity: 100%;
 }
 
