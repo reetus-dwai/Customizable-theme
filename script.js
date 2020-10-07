@@ -18,6 +18,6 @@ function save(){
     document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
     document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
   }
-  localStorage.setItem('background', document.getElemtentById('background').value)
-  localStorage.setItem('background', document.getElemtentById('color').value)
+  localStorage.setItem('background', document.getElemtentById('background').value);
+  localStorage.setItem('background', document.getElemtentById('color').value);
 }
