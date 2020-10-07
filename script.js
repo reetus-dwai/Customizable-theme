@@ -1,13 +1,15 @@
-$(document).ready(function() {
-    start();
-});
-
-function start(){
-  for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
-    document.getElementsByClassName('theme')[i].style.background = localStorage.getItem('background');
-    document.getElementsByClassName('theme')[i].style.color = localStorage.getItem('color');
+function ready() {
+    alert('DOM is ready');
   }
-}
+
+  document.addEventListener("DOMContentLoaded", ready);
+
+// function start(){
+//   for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
+//     document.getElementsByClassName('theme')[i].style.background = localStorage.getItem('background');
+//     document.getElementsByClassName('theme')[i].style.color = localStorage.getItem('color');
+//   }
+// }
 
 function flip(){
   if (document.getElementById('settings').style.display == 'none'){
