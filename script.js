@@ -31,7 +31,7 @@ function save(){
     document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
   }
   localStorage.clear();
-  localStorage.setItem('background', (document.getElemtentById('background').value));
-  localStorage.setItem('color', (document.getElemtentById('color').value));
+  localStorage.setItem('background', (document.getElementById('background').value));
+  localStorage.setItem('color', (document.getElementById('color').value));
   alert(localStorage.length);
 }
