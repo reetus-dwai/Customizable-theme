@@ -1,11 +1,11 @@
 function flip(){
-  let i = 1;
-  if (i = 1){
-    i = i * (-1);
+  let a = 1;
+  if (a = 1){
+    a = -1;
     document.getElementById('settings').style.display = 'block';
     alert(document.getElementById('settings').style.display);
   } else {
-    i = i * (-1);
+    a = 1;
     document.getElementById('settings').style.display = 'none';
     alert(document.getElementById('settings').style.display);
   }
