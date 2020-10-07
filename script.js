@@ -21,17 +21,17 @@ function flip(){
 }
             
 function theme(){
-//   for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
+  for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
     document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
     document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
-//   }
+  }
 }
 
 function save(){
-//   for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
-    document.getElementsByClassName('theme').style.background = document.getElementById('background').value;
-    document.getElementsByClassName('theme').style.color = document.getElementById('color').value;
-//   }
+  for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
+    document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
+    document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
+//   }/
   localStorage.clear();
   localStorage.setItem('background', (document.getElementById('background').value));
   localStorage.setItem('color', (document.getElementById('color').value));
