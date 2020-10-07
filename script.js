@@ -33,4 +33,5 @@ function save(){
   localStorage.clear();
   localStorage.setItem('background', document.getElemtentById('background').value);
   localStorage.setItem('color', document.getElemtentById('color').value);
+  alert(localStorage.length);
 }
