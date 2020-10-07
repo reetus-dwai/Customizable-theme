@@ -1,3 +1,15 @@
+$(document).ready(function() {
+    //Function call
+    setname();
+});
+
+function start(){
+  for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
+    document.getElementsByClassName('theme')[i].style.background = localStorage.getItem('background');
+    document.getElementsByClassName('theme')[i].style.color = localStorage.getItem('color');
+  }
+}
+
 function flip(){
   if (document.getElementById('settings').style.display == 'none'){
     document.getElementById('settings').style.display = 'block';
