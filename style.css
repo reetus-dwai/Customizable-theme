@@ -13,7 +13,7 @@
 
 #settings {
   display: none;
-  border: 1px solid black;
+  border: none;
 /*inheritly edited*/
   position: absolute;
   left: 90vw;
