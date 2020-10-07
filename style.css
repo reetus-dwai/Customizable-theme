@@ -1,14 +1,10 @@
-#imgBTN {
-  border: none;
-}
-
 #imgSettings {
 /*not editable*/
   border: none;
   position: absolute;
+  cursor: pointer;
 /*dynamicaly editable*/
-  filter: hue-rotate(30deg);
-  left: 97.5vw;
+  right: 0.5vw;
   top: 0.5vw;
   width: 2vw;
   height: 2vw;
