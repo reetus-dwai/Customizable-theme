@@ -17,7 +17,7 @@
 
 #settings {
   display: none;
-  border: none;
+  border: 1px solid black;
 /*inheritly edited*/
   position: absolute;
   left: 80vw;
