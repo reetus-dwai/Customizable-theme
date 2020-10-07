@@ -25,7 +25,7 @@ function apply(){
     document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
     document.getElementsByClassName('theme')[i].style.color = document.getElementById('color').value;
   }
-  document.getElementById('imgSettings').style.opacity = document.getElementById('opacity').value;
+  document.getElementById('imgSettings').style.opacity = document.getElementById('opacity').value + '%';
   document.getElementById('imgSettings').style.right = document.getElementById('hp').value + 'vw';
   document.getElementById('imgSettings').style.top = document.getElementById('vp').value + 'vw';
   document.getElementById('imgSettings').style.width = document.getElementById('size').value + 'vw';
