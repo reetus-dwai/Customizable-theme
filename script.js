@@ -36,3 +36,10 @@ function save(){
   localStorage.setItem('background', (document.getElementById('background').value));
   localStorage.setItem('color', (document.getElementById('color').value));
 }
+
+function reset(){
+  localStorage.clear();
+  localStorage.setItem('background', '#ffffff');
+  localStorage.setItem('color', '#000000');
+  ready();
+}
