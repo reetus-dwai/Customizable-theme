@@ -1,6 +1,5 @@
 $(document).ready(function() {
-    //Function call
-    setname();
+    start();
 });
 
 function start(){
