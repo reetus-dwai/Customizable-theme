@@ -1,5 +1,5 @@
 function flip(){
-  let 1 = 1;
+  let i = 1;
   if (i = 1){
     i = i * (-1);
     document.getElementById('settings').style.display = 'block';
