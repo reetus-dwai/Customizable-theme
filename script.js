@@ -1,11 +1,11 @@
 function flip(){
-	if (document.getElementById('settings').style.display == 'none'){
-		document.getElementById('settings').style.display = 'block';
-	} else {
-		document.getElementById('settings').style.display = 'none';
-	}
+  if (document.getElementById('settings').style.display == 'none'){
+    document.getElementById('settings').style.display = 'block';
+  } else {
+    document.getElementById('settings').style.display = 'none';
 }
-               
+}
+            
 function theme(){
   for (i = 0; i < (document.getElementsByClassName('theme').length); i++){
     document.getElementsByClassName('theme')[i].style.background = document.getElementById('background').value;
