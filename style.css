@@ -3,7 +3,7 @@
   border: none;
   position: absolute;
 /*dynamicaly editable*/
-  filter: hue-rotate(0deg);
+  filter: hue-rotate(30deg);
   left: 95vw;
   top: 0vw;
   width: 5vw;
